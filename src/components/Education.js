@@ -12,7 +12,7 @@ const Education = (props) => {
                             <div className="school">
                                 <h3>{degree.school}, <small>{degree.endDate}</small></h3>
                                 <input type='text' className='editInputs' id={"schoolInupt-"+degree.id} defaultValue={degree.school}></input>
-                                <input type='date' className='editInputs' id={"endDateInupt-"+degree.id} defaultValue={degree.endDate}></input>
+                                <input type='month' className='editInputs' id={"endDateInupt-"+degree.id} defaultValue={degree.endDate}></input>
                             </div>
                             <div className="major">
                                 <p>Major : {degree.major}</p>
